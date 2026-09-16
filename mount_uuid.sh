@@ -20,7 +20,6 @@ sudo mkdir -p /mnt/mydisk
 
 
 # Mount filesystem using UUID
-sudo mount UUID=1234-ABCD /mnt/mydisk
 # Replace YOUR_UUID with actual UUID
 sudo mount UUID=YOUR_UUID /mnt/mydisk
 
