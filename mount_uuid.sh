@@ -2,27 +2,31 @@
 
 # ==========================================
 # Mount Filesystem Using UUID
-# Student Name:
-# Roll Number:
+# Student Name:aparna
+# Roll Number:1U24IT010
 # ==========================================
 
 
 # Display filesystem UUID
+sudo blkid /dev/sdb1
 
 
 
 
 # Create mount directory
+sudo mkdir -p /mnt/mydisk
 
 
 
 
 # Mount filesystem using UUID
+sudo mount UUID=1234-ABCD /mnt/mydisk
 # Replace YOUR_UUID with actual UUID
+sudo mount UUID=YOUR_UUID /mnt/mydisk
 
 
 
 
 # Display mounted filesystem
-
+df -h /mnt/mydisk
 
